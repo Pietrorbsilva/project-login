@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de Cores
+    Verde:#4C736F
+    Ferrugem: #735451
+    Light Ferrugem: #A6938F
+    Preto: #1A1126
+    Off-white: #E9EEF2
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 250px;
+    height: 500px;
+    background-color: #4C736F;
+    
+}
+
+main{
+    position: relative; 
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    
+}
