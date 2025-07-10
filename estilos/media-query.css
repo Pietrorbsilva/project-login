@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+ /*
+    Extra Small (phones, 600px and down)
+    Small (portrait tablets and large phones, 600px and up)
+    Medium (landscape tablets, 768px and up)
+    Large (laptops/desktops, 992px and up)
+    Extra Large (large laptops and desktops, 1200px and up)
+ */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    section#login{
+        width: 90vw;
+    }
+
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center bottom ;
+    }
+
+    div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    section#login{
+        width: 950px;
+    }
+
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center bottom ;
+    }
+
+    div#form{
+        float: right;
+        width: 50%;
+    }
+
+}
