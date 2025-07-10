@@ -8,10 +8,30 @@
     Extra Large (large laptops and desktops, 1200px and up)
  */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    
+@media screen and (min-width: 768px) and (max-width: 992px){ /* Configurações para Tablet */
+    body{
+        background-image: linear-gradient(to top, #4C736F, #735451);
+        background-repeat: no-repeat;
+    }
+
     section#login{
         width: 90vw;
+        height: 35vh;
+    }
+
+    form{
+        margin-top: 20px;
+    }
+
+    #form > form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    }
+
+    #form > form > p{
+    margin-bottom: 10px;
+    font-size: 1.05rem;
     }
 
     div#imagem{
@@ -27,16 +47,37 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){ /* Configurações para Pc e telas maiores */
+    body{
+        background-image: linear-gradient(to top, #4C736F, #735451);
+        background-repeat: no-repeat;
+    }
+    
     section#login{
         width: 950px;
+        height: 38vh;
+    }
+
+    #form > form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    }
+
+    #form > form > p{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    }
+
+    form{
+        margin-top: 10px;
     }
 
     div#imagem{
         float: left;
         width: 50%;
         height: 100%;
-        background-position: center bottom ;
+        background-position: bottom bottom ;
     }
 
     div#form{
